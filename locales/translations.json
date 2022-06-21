@@ -140,8 +140,8 @@
         "description": ""
       },
       "pricing": {
-        "message": "as little as {{pricing, currency}} a day",
-        "description": "ignore curly braces and everything in between"
+        "message": "as little as $0.14 a day",
+        "description": ""
       },
       "feature-1-bold": {
         "message": "Unlimited ad-free, private search,",
@@ -226,5 +226,15 @@
         "description": ""
       }
     }
+  },
+  "smartling": {
+    "string_format": "icu",
+    "translate_paths": [
+      {
+        "instruction": "*/description",
+        "key": "{*}/message",
+        "path": "*/message"
+      }
+    ]
   }
 }
