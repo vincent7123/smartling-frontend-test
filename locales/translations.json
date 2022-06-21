@@ -1,194 +1,230 @@
 {
-    "smartling": {
-      "string_format": "icu",
-      "translate_paths": [
-        {
-          "instruction": "*/description",
-          "key": "{*}/message",
-          "path": "*/message"
+  "Signup": {
+    "Error": {
+      "duplicate-email": {
+        "message": "Somebody has already signed up using this email address",
+        "description": ""
+      },
+      "unknown-error": {
+        "message": "Unknown error",
+        "description": ""
+      }
+    },
+    "InputPassword": {
+      "hide": {
+        "message": "Hide password",
+        "description": ""
+      },
+      "show": {
+        "message": "Show password",
+        "description": ""
+      }
+    },
+    "PasswordStrengthMeter": {
+      "weak": {
+        "message": "Weak password",
+        "description": ""
+      },
+      "good": {
+        "message": "Good password",
+        "description": ""
+      },
+      "strong": {
+        "message": "Wow! Now that's a strong password!",
+        "description": ""
+      }
+    },
+    "RegistrationError": {
+      "invalid-email": {
+        "message": "Invalid email used to register",
+        "description": "asdf"
+      },
+      "invalid-request": {
+        "message": "Invalid name and/or password",
+        "description": ""
+      },
+      "invalid-token": {
+        "message": "Invalid token received",
+        "description": ""
+      },
+      "used-token": {
+        "message": "Token has already been used",
+        "description": ""
+      },
+      "used-email-1": {
+        "message": "This email is associated with an existing Neeva account",
+        "description": "ignore Neeva"
+      },
+      "internal-error": {
+        "message": "Unexpected error occurred",
+        "description": ""
+      },
+      "used-email-2": {
+        "message": "This email is associated with an existing Neeva account",
+        "description": "ignore Neeva"
+      }
+    },
+    "ChoosePlanForm": {
+      "Okta": {
+        "short-password": {
+          "message": "Password is too short",
+          "description": ""
+        },
+        "invalid-input)": {
+          "message": "Invalid input",
+          "description": ""
+        },
+        "unknown-error": {
+          "message": "unknown",
+          "description": ""
         }
-      ],
-      "variants_enabled": true
+      },
+      "invalid-email": {
+        "message": "Invalid email address",
+        "description": ""
+      },
+      "confirm-button": {
+        "message": "Confirm",
+        "description": ""
+      },
+      "title-default": {
+        "message": "Choose your plan",
+        "description": "basic plan or premium plan"
+      },
+      "title-beta": {
+        "message": "Welcome to Neeva Beta",
+        "description": "ignore Neeva"
+      },
+      "Spacer": {
+        "confirm": {
+          "message": "By creating your Neeva account you acknowledge Neeva&apos;s",
+          "description": "ignore first Neeva, possesive second Neeva"
+        },
+        "Link": {
+          "terms-of-service": {
+            "message": "Terms of Service",
+            "description": ""
+          },
+          "privacy-policy": {
+            "message": "Privacy Policy",
+            "description": ""
+          },
+          "contact-us": {
+            "message": "Contact us",
+            "description": ""
+          }
+        },
+        "and": {
+          "message": "and",
+          "description": ""
+        }
+      }
     },
-    "AppleLoginButton": {
-      "description": "Ignore Apple",
-      "message": "Sign in with Apple"
+    "Header": {
+      "sign-in": {
+        "message": "Sign in",
+        "description": ""
+      },
+      "sign-out": {
+        "message": "Sign out",
+        "description": ""
+      },
+      "description": {
+        "message": "the first ad-free, private search engine",
+        "description": ""
+      }
     },
-    "DefaultScreen.FeedbackLink.placeholder": {
-      "description": "Feedback",
-      "message": "How can we help?"
+    "PremiumPlanCard": {
+      "title": {
+        "message": "Premium",
+        "description": ""
+      },
+      "pricing": {
+        "message": "as little as {{pricing, currency}} a day",
+        "description": "ignore curly braces and everything in between"
+      },
+      "feature-1-bold": {
+        "message": "Unlimited ad-free, private search,",
+        "description": ""
+      },
+      "feature-1-text": {
+        "message": "personalization features, and account connectors",
+        "description": ""
+      },
+      "feature-2-bold": {
+        "message": "Premium Password Manager & VPN,",
+        "description": ""
+      },
+      "feature-2-text": {
+        "message": "best-in-class privacy protecting tools",
+        "description": ""
+      },
+      "feature-3-bold": {
+        "message": "Insider benefits",
+        "description": ""
+      },
+      "feature-3-text": {
+        "message": "including live Q&amp;As with Neeva leadership, early access to new features, Premium NFT, and more",
+        "description": "Q&amp;As = question and answers, ignore Neeva, ignore NFT"
+      }
     },
-    "DefaultScreen.FeedbackLink.text": {
-      "description": "Feedback",
-      "message": "Contact us"
+    "FreeBasicPlanCard": {
+      "title": {
+        "message": "Free Basic",
+        "description": ""
+      },
+      "feature-1-bold": {
+        "message": "Ad-free, private search,",
+        "description": ""
+      },
+      "feature-1-text": {
+        "message": "personalization features, and account connectors (some usage limits)",
+        "description": ""
+      },
+      "feature-2": {
+        "message": "Premium Password Manager &amp; VPN",
+        "description": "ignore VPN"
+      },
+      "feature-3": {
+        "message": "Insider benefits",
+        "description": ""
+      }
     },
-    "DefaultScreen.FeedbackLink.thankYouMsg": {
-      "description": "Feedback",
-      "message": "Thank you for your message. We'll get back to you soon!"
+    "ThirdPartyAuth": {
+      "other-options": {
+        "message": "Other sign up options",
+        "description": ""
+      },
+      "google": {
+        "message": "Sign up with Google",
+        "description": "ignore Google"
+      },
+      "apple": {
+        "message": "Sign up with Apple",
+        "description": "ignore Apple"
+      },
+      "microsoft": {
+        "message": "Sign up with Microsoft",
+        "description": "ignore Microsoft"
+      }
     },
-    "DefaultScreen.FeedbackLink.title": {
-      "description": "Feedback",
-      "message": "Contact us"
-    },
-    "DefaultScreen.ScreenHeader.subtitle.link": {
-      "description": "n/a",
-      "message": "Sign up"
-    },
-    "DefaultScreen.ScreenHeader.subtitle.text": {
-      "description": "n/a",
-      "message": "Don't have an account?"
-    },
-    "DefaultScreen.ScreenHeader.title": {
-      "description": "Ignore Neeva",
-      "message": "Sign in to Neeva"
-    },
-    "DefaultScreen.input.placeholder": {
-      "description": "n/a",
-      "message": "Please enter your email address"
-    },
-    "GoogleLoginButton": {
-      "description": "Ignore Google",
-      "message": "Sign in with Google"
-    },
-    "MicrosoftLoginButton": {
-      "description": "Ignore Microsoft",
-      "message": "Sign in with Microsoft"
-    },
-    "NeevaLoginButton": {
-      "description": "n/a",
-      "message": "Sign in"
-    },
-    "OrDivider": {
-      "description": "n/a",
-      "message": "or"
-    },
-    "ProviderOptions.link": {
-      "description": "'please' comes before",
-      "message": "click here"
-    },
-    "ProviderOptions.period": {
-      "description": "period",
-      "message": "."
-    },
-    "ProviderOptions.setup": {
-      "description": "Ignore Neeva, 'click here' comes next",
-      "message": "If you are trying to set up a new Neeva account, please"
-    },
-    "ProviderOptions.signup": {
-      "description": "Ignore Neeva",
-      "message": "If you have already set up a Neeva account, please sign in below."
-    },
-    "ReferralsLeaderboard.people": {
-      "description": "one or more plural",
-      "message": "{count, plural, one {# more person} other {# more people}}"
-    },
-    "RetryMessage.genericInstructions.link": {
-      "description": "'please' comes before",
-      "message": "click here"
-    },
-    "RetryMessage.genericInstructions.signin": {
-      "description": "Ignore Neeva",
-      "message": "If you have already set up a Neeva account, please sign in below."
-    },
-    "RetryMessage.genericInstructions.signup": {
-      "description": "'click here' comes next",
-      "message": "If you are trying to set up a new Neeva account, please"
-    },
-    "RetryMessage.noAccountInstructions.contact": {
-      "description": "'contact us' comes next",
-      "message": "If you are still having problems, please"
-    },
-    "RetryMessage.noAccountInstructions.exists": {
-      "description": "n/a",
-      "message": "If you already have an account, you may have used a different email address, or chosen to use \"Sign In\" with a different provider"
-    },
-    "RetryMessage.noAccountInstructions.link": {
-      "description": "'please' comes before",
-      "message": "click here"
-    },
-    "RetryMessage.noAccountInstructions.noAccountFound": {
-      "description": "n/a",
-      "message": "We could not find your account."
-    },
-    "RetryMessage.noAccountInstructions.placeholder": {
-      "description": "Feedback",
-      "message": "How can we help?"
-    },
-    "RetryMessage.noAccountInstructions.signup": {
-      "description": "'click here' comes next",
-      "message": "If you would like to create a new account, please"
-    },
-    "RetryMessage.noAccountInstructions.text": {
-      "description": "Feedback",
-      "message": "contact us"
-    },
-    "RetryMessage.noAccountInstructions.thankYouMsg": {
-      "description": "Feedback",
-      "message": "Thank you for your message. We'll get back to you soon!"
-    },
-    "RetryMessage.noAccountInstructions.title": {
-      "description": "Feedback",
-      "message": "Contact Us"
-    },
-    "RetryMessage.reason.NL001.signup": {
-      "description": "'Please visit url' comes before'",
-      "message": "to sign up."
-    },
-    "RetryMessage.reason.NL001.visit": {
-      "description": "url link come next",
-      "message": "Please visit"
-    },
-    "RetryMessage.reason.NL002": {
-      "description": "Ignore Neeva",
-      "message": "Please try again with the login provider you used to create your Neeva account."
-    },
-    "RetryMessage.reason.NL003": {
-      "description": "Ignore Google, Neeva",
-      "message": "Please \"Sign in with Google\", which was used when creating your Neeva account."
-    },
-    "RetryMessage.reason.NL004": {
-      "description": "Ignore Apple, Neeva",
-      "message": "Please \"Sign in with Apple\", which was used when creating your Neeva account."
-    },
-    "RetryMessage.reason.NL005": {
-      "description": "Ignore Microsoft, Neeva",
-      "message": "Please \"Sign in with Microsoft\", which was used when creating your Neeva account."
-    },
-    "RetryMessage.reason.NL006": {
-      "description": "n/a",
-      "message": "Your invite token is invalid."
-    },
-    "RetryMessage.reason.NL007": {
-      "description": "n/a",
-      "message": "Your invite token has expired."
-    },
-    "RetryMessage.reason.NL008": {
-      "description": "n/a",
-      "message": "Your invite token has already been used."
-    },
-    "RetryMessage.reason.NL009": {
-      "description": "n/a",
-      "message": "Your login provider did not return an email address; please use an invite token to create an account."
-    },
-    "RetryMessage.reason.NL013": {
-      "description": "n/a",
-      "message": "Please click \"Sign in\" to continue."
-    },
-    "RetryMessage.reason.NL015": {
-      "description": "Ignore Neeva",
-      "message": "You have denied the requested permissions. Please authorize Neeva for login."
-    },
-    "RetryMessage.reason.NL100": {
-      "description": "SSO is an abbreviation for single sign on",
-      "message": "Please login using the SSO provider for your organization."
-    },
-    "RetryMessage.reason.defaultMessage": {
-      "description": "n/a",
-      "message": "Your previous login attempt failed. Please try again."
-    },
-    "RetryMessage.reason.unknown": {
-      "description": "n/a",
-      "message": "An unknown error occurred. Please try again."
+    "CreateNeevaAccount": {
+      "email-placeholder": {
+        "message": "Email",
+        "description": ""
+      },
+      "password-placeholder": {
+        "message": "Password",
+        "description": ""
+      },
+      "confirm": {
+        "message": "Confirm",
+        "description": ""
+      },
+      "send-tips": {
+        "message": "Send me product and privacy tips",
+        "description": ""
+      }
     }
   }
-  
+}
