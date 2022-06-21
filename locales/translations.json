@@ -1,14 +1,4 @@
 {
-  "smartling": {
-    "string_format": "icu",
-    "translate_paths": [
-      {
-        "instruction": "*/description",
-        "key": "{*}/message",
-        "path": "*/message"
-      }
-    ]
-  },
   "Signup": {
     "Error": {
       "duplicate-email": {
@@ -236,5 +226,15 @@
         "description": ""
       }
     }
+  },
+  "smartling": {
+    "string_format": "icu",
+    "translate_paths": [
+      {
+        "instruction": "*/description",
+        "key": "{*}/message",
+        "path": "*/message"
+      }
+    ]
   }
 }
