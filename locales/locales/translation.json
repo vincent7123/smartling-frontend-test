@@ -1,0 +1,230 @@
+{
+  "Signup": {
+    "Error": {
+      "duplicate-email": {
+        "message": "Somebody has already signed up using this email address",
+        "description": ""
+      },
+      "unknown-error": {
+        "message": "Unknown error",
+        "description": ""
+      }
+    },
+    "InputPassword": {
+      "hide": {
+        "message": "Hide password",
+        "description": ""
+      },
+      "show": {
+        "message": "Show password",
+        "description": ""
+      }
+    },
+    "PasswordStrengthMeter": {
+      "weak": {
+        "message": "Weak password",
+        "description": ""
+      },
+      "good": {
+        "message": "Good password",
+        "description": ""
+      },
+      "strong": {
+        "message": "Wow! Now that's a strong password!",
+        "description": ""
+      }
+    },
+    "RegistrationError": {
+      "invalid-email": {
+        "message": "Invalid email used to register",
+        "description": "asdf"
+      },
+      "invalid-request": {
+        "message": "Invalid name and/or password",
+        "description": ""
+      },
+      "invalid-token": {
+        "message": "Invalid token received",
+        "description": ""
+      },
+      "used-token": {
+        "message": "Token has already been used",
+        "description": ""
+      },
+      "used-email-1": {
+        "message": "This email is associated with an existing Neeva account",
+        "description": "ignore Neeva"
+      },
+      "internal-error": {
+        "message": "Unexpected error occurred",
+        "description": ""
+      },
+      "used-email-2": {
+        "message": "This email is associated with an existing Neeva account",
+        "description": "ignore Neeva"
+      }
+    },
+    "ChoosePlanForm": {
+      "Okta": {
+        "short-password": {
+          "message": "Password is too short",
+          "description": ""
+        },
+        "invalid-input)": {
+          "message": "Invalid input",
+          "description": ""
+        },
+        "unknown-error": {
+          "message": "unknown",
+          "description": ""
+        }
+      },
+      "invalid-email": {
+        "message": "Invalid email address",
+        "description": ""
+      },
+      "confirm-button": {
+        "message": "Confirm",
+        "description": ""
+      },
+      "title-default": {
+        "message": "Choose your plan",
+        "description": "basic plan or premium plan"
+      },
+      "title-beta": {
+        "message": "Welcome to Neeva Beta",
+        "description": "ignore Neeva"
+      },
+      "Spacer": {
+        "confirm": {
+          "message": "By creating your Neeva account you acknowledge Neeva&apos;s",
+          "description": "ignore first Neeva, possesive second Neeva"
+        },
+        "Link": {
+          "terms-of-service": {
+            "message": "Terms of Service",
+            "description": ""
+          },
+          "privacy-policy": {
+            "message": "Privacy Policy",
+            "description": ""
+          },
+          "contact-us": {
+            "message": "Contact us",
+            "description": ""
+          }
+        },
+        "and": {
+          "message": "and",
+          "description": ""
+        }
+      }
+    },
+    "Header": {
+      "sign-in": {
+        "message": "Sign in",
+        "description": ""
+      },
+      "sign-out": {
+        "message": "Sign out",
+        "description": ""
+      },
+      "description": {
+        "message": "the first ad-free, private search engine",
+        "description": ""
+      }
+    },
+    "PremiumPlanCard": {
+      "title": {
+        "message": "Premium",
+        "description": ""
+      },
+      "pricing": {
+        "message": "as little as {{pricing, currency}} a day",
+        "description": "ignore curly braces and everything in between"
+      },
+      "feature-1-bold": {
+        "message": "Unlimited ad-free, private search,",
+        "description": ""
+      },
+      "feature-1-text": {
+        "message": "personalization features, and account connectors",
+        "description": ""
+      },
+      "feature-2-bold": {
+        "message": "Premium Password Manager & VPN,",
+        "description": ""
+      },
+      "feature-2-text": {
+        "message": "best-in-class privacy protecting tools",
+        "description": ""
+      },
+      "feature-3-bold": {
+        "message": "Insider benefits",
+        "description": ""
+      },
+      "feature-3-text": {
+        "message": "including live Q&amp;As with Neeva leadership, early access to new features, Premium NFT, and more",
+        "description": "Q&amp;As = question and answers, ignore Neeva, ignore NFT"
+      }
+    },
+    "FreeBasicPlanCard": {
+      "title": {
+        "message": "Free Basic",
+        "description": ""
+      },
+      "feature-1-bold": {
+        "message": "Ad-free, private search,",
+        "description": ""
+      },
+      "feature-1-text": {
+        "message": "personalization features, and account connectors (some usage limits)",
+        "description": ""
+      },
+      "feature-2": {
+        "message": "Premium Password Manager &amp; VPN",
+        "description": "ignore VPN"
+      },
+      "feature-3": {
+        "message": "Insider benefits",
+        "description": ""
+      }
+    },
+    "ThirdPartyAuth": {
+      "other-options": {
+        "message": "Other sign up options",
+        "description": ""
+      },
+      "google": {
+        "message": "Sign up with Google",
+        "description": "ignore Google"
+      },
+      "apple": {
+        "message": "Sign up with Apple",
+        "description": "ignore Apple"
+      },
+      "microsoft": {
+        "message": "Sign up with Microsoft",
+        "description": "ignore Microsoft"
+      }
+    },
+    "CreateNeevaAccount": {
+      "email-placeholder": {
+        "message": "Email",
+        "description": ""
+      },
+      "password-placeholder": {
+        "message": "Password",
+        "description": ""
+      },
+      "confirm": {
+        "message": "Confirm",
+        "description": ""
+      },
+      "send-tips": {
+        "message": "Send me product and privacy tips",
+        "description": ""
+      }
+    }
+  }
+}
